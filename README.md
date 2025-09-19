@@ -60,6 +60,4 @@ Automatically adds the previous and next track from the same directory to the VL
 - Delete `auto_dir_enqueue.lua` from the interface folder
 
 ### Credits
-- Idea for robust file selection/playlist manipulation inspired by a VLC Lua extension (neighbor logic, move trick for “previous track”)
-
-
+- Idea for robust file selection/playlist manipulation inspired by a VLC Lua extension (neighbor logic, move trick for “previous track”) https://github.com/djomlastic/vlc-prev-next
