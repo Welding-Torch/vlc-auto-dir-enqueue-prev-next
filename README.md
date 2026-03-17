@@ -12,6 +12,17 @@ Automatically adds the previous and next track from the same directory to the VL
 - VLC 3.0.x (tested with 3.0.21)
 
 ### Installation
+
+#### Method 1: Automatic Installation
+
+**Windows (PowerShell):**
+*Press `Windows + R` → type `powershell` → Enter, then run:*
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser; iwr -useb https://raw.githubusercontent.com/eltoro0815/vlc-auto-dir-enqueue-prev-next/main/scripts/install.ps1 | iex
+```
+
+#### Method 2: Manual Installation
+
 1. Copy `auto_dir_enqueue.lua` to your user interface folder (create the folder if needed):
    - Windows: `%APPDATA%\vlc\lua\intf\`
    - Linux: `~/.local/share/vlc/lua/intf/` (alternatively `~/.config/vlc/lua/intf/`)
